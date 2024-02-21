@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section */
+section {
+  margin-bottom: 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Main Menu */
+.main-menu {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-menu li:last-child {
+  margin-right: 0;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+  color: #007bff;
+}
+
+/* Message Input Section */
+.message-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 26px;
+}
+
+.message-input label {
+  margin-bottom: 10px;
+  color: #555;
+  font-family: 'Roboto', sans-serif;
+}
+
+.message-input input[type="text"],
+.message-input textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.message-input input[type="text"]:focus,
+.message-input textarea:focus {
+  border-color: #007bff;
+}
+
+/* Result Section */
+#result-section {
+  display: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#result-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  color: #333;
+}
+
+/* Button */
+button {
+  margin-top: 20px; 
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Radio Buttons */
+.radio-buttons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.radio-buttons input {
+  margin-right: 5px;
+}
+
+.radio-buttons label {
+  margin-right: 15px;
+  font-weight: normal;
+}

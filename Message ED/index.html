@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Encryption/Decryption Tool</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Message Encryption / Decryption</h1>
+
+    <section class="message-input">
+      <h2>Enter your message:</h2>
+      <textarea id="message-text" placeholder="Type your message here..."></textarea>
+      <br>
+      <input type="radio" name="action" id="encrypt" value="encrypt"> Encrypt
+      <input type="radio" name="action" id="decrypt" value="decrypt"> Decrypt
+      <br>
+      <button type="button" id="process-button">Process</button>
+    </section>
+
+    <section class="result" id="result-section">
+      <h2>Result:</h2>
+      <pre id="result-text"></pre>
+    </section>
+  </div>
+
+  
+
+
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+</body>
+</html>
